@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 버튼 클릭 시 알림 메시지 표시
-    const alertButton = document.getElementById("alert-button");
+    // const alertButton = document.getElementById("alert-button");
+    //   alertButton.addEventListener("click", function() {
+    //      alert("Button clicked!");
+    //  });
+
+     const alertButton = document.getElementById("alert-button");
       alertButton.addEventListener("click", function() {
          alert("Button clicked!");
      });
